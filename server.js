@@ -9,8 +9,8 @@ app.set("view engine", "ejs");
 // index page
 app.get("/", function (req, res) {
   const friends = [
-    { name: "Carina", department: "Product Designer", interest: "Dota" },
-    { name: "Reshma", department: "Product Manager", interest: "Running" },
+    { name: "Carina", department: "Product Designer", interest: "Graphics" },
+    { name: "Reshma", department: "Product Manager", interest: "Distributing" },
     { name: "Fabian", department: "Software Engineer", interest: "gymming" },
     { name: "Sean", department: "Software Engineer", interest: "Drinking" },
     { name: "Kaiwen", department: "Software Engineer", interest: "honeymooning" },
