@@ -11,7 +11,7 @@ app.get("/", function (req, res) {
   const friends = [
     { name: "Carina", department: "Product Designer", interest: "Graphics" },
     { name: "Reshma", department: "Product Manager", interest: "Distributing" },
-    { name: "Fabian", department: "Software Engineer", interest: "gymming" },
+    { name: "Fabian", department: "Software Engineer", interest: "Gymming" },
     { name: "Sean", department: "Software Engineer", interest: "Drinking" },
     { name: "Kaiwen", department: "Software Engineer", interest: "honeymooning" },
     { name: "Geraldine", department: "Product Operations", interest: "BFT" },
