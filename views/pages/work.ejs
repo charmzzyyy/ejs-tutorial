@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head',{variant: 'compact'}); %>
+  </head>
+  <body class="container">
+    <header><%- include('../partials/header'); %></header>
+
+    <main>
+      <div class="jumbotron">
+        <h1>This is what I'm working on</h1>
+
+        <h2>Product list</h2>
+
+        <ul>
+          <% products.forEach(function(product) { %>
+          <li>
+            <strong><%= product.name %></strong>
+            is about 
+         <strong><%= product.about %></strong>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+  </body>
+</html>
